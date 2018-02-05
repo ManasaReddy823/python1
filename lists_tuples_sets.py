@@ -1,7 +1,7 @@
-courses=['History','physics','computer_Sci']
+courses=['history','physics','computer_Sci']
 #see the type
 #print(type(courses))
-#calculate the length
+#calculate the length--number of elements in the list
 #print(len(courses))
 #check the functions and method on list
 #print(dir(courses))
@@ -13,31 +13,45 @@ courses=['History','physics','computer_Sci']
 #accessing the elements
 #print(courses[0:3:1])
 #print(courses[-1])
-#courses=['History','physics','computer_Sci']
-#courses_art=['Art','commerce']
+courses=['History','physics','computer_Sci',1]
+courses_art=['Art','commerce']
 #print(courses_art)
-#courses_art.append(courses)
+#courses_art.insert(2,courses)
 #print(courses_art)
-#courses.remove('History')
+#courses.remove(1)
+#print(courses)
 #popped=courses.pop()
 #print(popped)
-#num=[1,2,3,4,5]
-#print(sum(num))
-courses=['History','physics','computer_Sci']
-#courses.sort(reverse=True)
 #print(courses)
-print(courses.index('physics'))
-print('History' in courses)
-for items in courses:
-	print(items)
-for number,items in enumerate(courses,start=1):
-	print(number,items)
+num=[1,2,3,4,5]
+courses=['History','physics','computer_Sci']
+#courses.sort()
+#courses.sort()
+#print(courses)
+#print(courses.index('physics'))
+#print('History'.lower() in courses)
+#for a in courses:
+#  print(a)
+#for number,items in enumerate(courses,start=1):
+#	print(number,items)
 course_str=("-".join(courses))
-print(course_str)
+#print(type(course_str))
 print(course_str.split("-"))
-
-hello_tuple=('History','social','physics')
+hello_tuple=('History','History','social','physics')
 print(hello_tuple)
+num={1,3,3,2}
+num2={3,4}
+print(num.union(num2))
+num=list()
+num=[]
+print(type(num))
+num1=()
+num1=tuple()
+print(type(num1))
+num2={}
+print(type(num2))
+num3=set()
+print(type(num3))
 
 
 

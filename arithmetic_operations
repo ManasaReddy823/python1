@@ -1,0 +1,24 @@
+add 3+2
+sub 3-2
+mul 3*2
+div 3/2
+floor division 3//2
+modulos 3%2
+exponent 3**2
+
+operators:
+
+== equals
+!= not equals
+> greater than
+< less than
+>=
+<=
+<>
+c+=a--c=c+a
+
+
+
+
+
+
